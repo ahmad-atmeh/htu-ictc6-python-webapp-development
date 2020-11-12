@@ -54,6 +54,9 @@ values = course.values()
 print(f"The keys are: {keys}")      # returns a list of keys
 print(f"The items are: {values}")   # returns a list of values
 
+# find/index and print (keys and value ) for dectionary  
+print(items[0][0])
+print(items[0][1])
 
 # # > Clearing a dictionary
 # print(course)
