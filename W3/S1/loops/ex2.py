@@ -51,6 +51,12 @@ favorite_songs = {
     4: {"title": "Don't Stop Me Now", "artist": "Queen", "tags": ["Rock", "Electric Guitar"]}
 }
 
+# # print the value of dictionary 
+# for song_id in favorite_songs:
+#     song = favorite_songs.get(song_id)
+#     print(f"'{song.get('title')}'a great song by '{song.get('artist')}' " )
+#     print(f"the song has the following tags: {song.get('tags')} ")
+
 # > Print dictionary items
 for song_id in favorite_songs:
     # Get the song ID
